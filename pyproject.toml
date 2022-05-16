@@ -1,0 +1,19 @@
+# pyproject.toml
+
+[tool.poetry]
+name = "nlp_app"
+version = "0.1.0"
+description = ""
+authors = ["Adrian <Adrian.Causby@edfenergy.com.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+nltk = "^*"
+sklearn = "^*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
