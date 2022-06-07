@@ -4,15 +4,15 @@
 name = "nlp_app"
 version = "0.1.0"
 description = ""
-authors = ["Adrian <Adrian.Causby@edfenergy.com.com>"]
+authors = ["Adrian <Adrian.Causby@edfenergy.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
-nltk = "^*"
-sklearn = "^*"
+python = "*"
+nltk = "*"
+sklearn = "*"
 
 [tool.poetry.dev-dependencies]
-pytest = "^*"
+pytest = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
